@@ -1,7 +1,7 @@
 <?php
 Class date
 {
-    function TimeUnix($mark_Unix): string
+     static function TimeUnix($mark_Unix): string
     {
         $month = "";
         $i = date("m", $mark_Unix);
